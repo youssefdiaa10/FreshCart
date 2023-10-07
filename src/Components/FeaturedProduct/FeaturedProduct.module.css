@@ -1,0 +1,22 @@
+/* .FeaturedProduct {
+
+} */
+
+.product{
+    box-shadow: none;
+    transition: all 0.5s;
+}
+.product:hover{
+    box-shadow:  0 6px 20px 0 rgba(33, 165, 0, 0.692);
+}
+
+.addCart{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.5s;
+}
+.product:hover .addCart{
+    opacity: 1;
+    transform: translateY(0);
+
+}

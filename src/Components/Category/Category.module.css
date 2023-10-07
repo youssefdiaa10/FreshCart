@@ -1,0 +1,7 @@
+.category{
+    box-shadow: none;
+    transition: all 0.5s;
+}
+.category:hover{
+    box-shadow:  0 6px 20px 0 rgba(33, 165, 0, 0.692);
+}
